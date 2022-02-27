@@ -70,3 +70,12 @@ Prérequis : Installation ou présence des modules nécessaires pour l'édition 
 	•   Module "speedtest" permettant de tester sa connection internet. (apt-get install speedtest-cli)
 	•   Module "geocoder" permettant de fournir des informations de géolocalisation. (pip install geocoder)
 	•   Module "socket" permettant de manipuler les interfaces socket.
+
+
+Configuration des machines cibles
+
+Les machines cibles sont donc deux Ubuntu Server 20.04.3 LTS reliés en local avec ip fixes et accès à une connection internet extérieure afin de rendre accessible le site Wordpress et permettre les notifications mails. Un premier serveur est entièrement dédié au stockage des sauvegardes en tant que serveur de sauvegarde et le second serveur hébergera donc un service web Apache Wordpress, un serveur FTP et un client msmtp.
+Les 6 scripts python énumérés plus haut sont placés sur le serveur Wordpress dans le dossier "/home/osboxes" , et les 2 petits scripts bash "maillog.sh" et "maillog-incre1.sh"
+sont placés dans le dossier "/home/osboxes/script". Vous avez donc à modifier la configuration et les variables des scripts Python si vous avez une autre configuration ou 
+si vous utilisez d'autres chemins d'accès.
+
