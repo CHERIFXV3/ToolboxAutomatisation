@@ -14,8 +14,13 @@ Contexte du Projet P6 AIC
  - Ce projet est une démonstration de solution de Toolbox 
    permettant d'appeler plusieurs fonctionnalités automatisées de tâches plutôt complexes 
    mais surtout répétitives d'administration système.
+ - Ce programme vise principalement à automatiser des sauvegardes complètes et incrémentielles d'un site Wordpress actif d'un serveur web, 
+   de transférer les sauvegardes et logs via FTP sur un serveur de sauvegarde et d'être notifié par mail de ces actions.
+   Le programme permet également d'utiliser quelques autres fonctionnalités comme des tests de débit et de ping de connection, 
+   la géolocalisation et l'apport d'informations comme l'ip publique et l'hostname de la machine mais surtout un port scanner 
+   afin de connaitre les ports et services ouverts et utilisés à des fins de sécurité réseau par exemple. 
  - Un menu Toolbox du Script MenuToolbox.py développe un menu 
-   de différents scripts d’exécution de tâches.
+   des différents scripts d’exécution de tâches.
  - Changement des variables du script selon l'infrastructure et les informations de connection.
  - Le script est initialement dédiée à une petite infrastructure de 2 servers Linux Ubuntu 18+ 
    hébergeant sur le premier serveur un site Wordpress, un serveur ftp et la présence du client 
