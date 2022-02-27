@@ -35,9 +35,9 @@ Technologies utilisées
 
 Contenu de ce repository
 
-  •	Script Python :   MenuToolbox.py
-  •	Script Python :   SaveCompleteWordpress.py
-  •	Script Python :   SaveIncrementielWordpress.py
+	•	Script Python :   MenuToolbox.py
+	•	Script Python :   SaveCompleteWordpress.py
+	•	Script Python :   SaveIncrementielWordpress.py
   •	Script Python :   SpeedTestConnection
   •	Script Python :   IPAdressLoc.py
   •	Script Python :   PortsScanner.py
