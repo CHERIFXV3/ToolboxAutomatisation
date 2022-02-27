@@ -44,6 +44,7 @@ Contenu de ce repository
 	•   maillog.sh
 	•   maillog-incre1.sh
 	•   readme.txt
+	•   README.md
 
 Prérequis :
 Installation ou présence des modules nécessaires pour l'édition des Scripts  
