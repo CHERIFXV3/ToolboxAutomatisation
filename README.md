@@ -30,9 +30,9 @@ Technologies utilisées
 	o   VM VirtualBox
 	o   2 Machines Ubuntu server 20.04.3 LTS
 	o   Git Bash
-  o	Notepad++
-  o	Gmail
-  
+	o   Notepad++
+	o   Gmail
+
 Contenu de ce repository
 
   •	Script Python :   MenuToolbox.py
