@@ -46,7 +46,7 @@ Contenu de ce repository
 	•   readme.txt
 	•   README.md
 
-Prérequis : Installation ou présence des modules nécessaires pour l'édition des Scripts  
+Prérequis : Installation ou présence des modules nécessaires pour l'édition et l'execution des Scripts  
 
 	•   Module "pyfiglet" permettant des affichages en art Ascii (pip install pyfiglet).
 	•   Module "os" permettant d’effectuer des opérations courantes liées au système d’exploitation.
