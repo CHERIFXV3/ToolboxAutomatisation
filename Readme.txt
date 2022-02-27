@@ -20,7 +20,7 @@ Contexte du Projet P6 AIC
    smtp "msmtp". Le second server faisant office de server de sauvegarde.
  - Cela devrait fonctionner sur d'autres distributions Linux plutôt récentes et proche 
    d'Ubuntu tels que Debian ou d'autres mais pas testé.
- - Il doit être exécuté en root (via un sudo sous Ubuntu).
+ - Cela doit être exécuté en root (via un sudo sous Ubuntu).
 
 
 Technologies utilisées
