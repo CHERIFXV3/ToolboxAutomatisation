@@ -18,8 +18,8 @@ Contexte du Projet P6 AIC
    de différents scripts d’exécution de tâches.
  - Changement des variables du script selon l'infrastructure et les informations de connection.
  - Le script est initialement dédiée à une petite infrastructure de 2 servers Linux Ubuntu 18+ 
-   hébergeant sur le premier server un site Wordpress, un serveur ftp et la présence d'un client 
-   smtp "msmtp". Le second server faisant office de server de sauvegarde.
+   hébergeant sur le premier serveur un site Wordpress, un serveur ftp et la présence du client 
+   smtp "msmtp". Le second server faisant office de serveur de sauvegarde.
  - Cela devrait fonctionner sur d'autres distributions Linux plutôt récentes et proche 
    d'Ubuntu tels que Debian ou d'autres mais pas testé.
  - Doit être exécuté en root pour pouvoir profiter de toutes les fonctionnalités des scripts. (via un sudo sous Ubuntu).
@@ -29,6 +29,8 @@ Technologies utilisées
 
 	o   VM VirtualBox
 	o   2 Machines Ubuntu server 20.04.3 LTS
+	o   Service vsftpd serveur
+	o   Service client smtp : "msmtp"
 	o   Git Bash
 	o   Notepad++
 	o   Gmail
@@ -46,7 +48,7 @@ Contenu de ce repository
 	•   readme.txt
 	•   README.md
 
-Prérequis : Installation ou présence des modules nécessaires pour l'édition des Scripts  
+Prérequis : Installation ou présence des modules nécessaires pour l'édition et l'execution des Scripts  
 
 	•   Module "pyfiglet" permettant des affichages en art Ascii (pip install pyfiglet).
 	•   Module "os" permettant d’effectuer des opérations courantes liées au système d’exploitation.
