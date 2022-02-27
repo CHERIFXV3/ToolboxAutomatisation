@@ -27,9 +27,9 @@ Contexte du Projet P6 AIC
 
 Technologies utilisées
 
-  o	VM VirtualBox
-  o	2 Machines Ubuntu server 20.04.3 LTS
-  o	Git Bash
+	o   VM VirtualBox
+	o   2 Machines Ubuntu server 20.04.3 LTS
+	o   Git Bash
   o	Notepad++
   o	Gmail
   
