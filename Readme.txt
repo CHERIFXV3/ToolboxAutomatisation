@@ -39,9 +39,9 @@ Contenu de ce repository
   •	Script Python :   SpeedTestConnection
   •	Script Python :   IPAdressLoc.py
   •	Script Python :   PortsScanner.py
-  • maillog.sh
+  •  maillog.sh
   •	maillog-incre1.sh
-  • readme.txt
+  •  readme.txt
 
 Prérequis :
 Installation ou présence des modules nécessaires pour l'édition des Scripts  
