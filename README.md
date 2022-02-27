@@ -2,11 +2,11 @@
 
 Projet 06 du parcours Administrateur Infrastructure & Cloud d'Openclassrooms
 
-o	Etudiant AIC OpenClassrooms : Beladra Chérif
-o	Date de création : 15/02/2022
-o	Dernière modification : 27/02/2022
-o	Testé avec : Python 3.8
-o	Projet sous Licence GNU General Public License v3.0
+	o	Etudiant AIC OpenClassrooms : Beladra Chérif
+	o	Date de création : 15/02/2022
+	o	Dernière modification : 27/02/2022
+	o	Testé avec : Python 3.8
+	o	Projet sous Licence GNU General Public License v3.0
 
 
 Contexte du Projet P6 AIC
