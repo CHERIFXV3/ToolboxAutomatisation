@@ -48,17 +48,17 @@ Contenu de ce repository
 Prérequis :
 Installation ou présence des modules nécessaires pour l'édition des Scripts  
 
-  •     Module "pyfiglet" permettant des affichages en art Ascii (pip install pyfiglet).        
-  •     Module "os" permettant d’effectuer des opérations courantes liées au système d’exploitation.
-  •     Module "sys" fournissant un accès à certaines variables utilisées et maintenues par l'interpréteur, et à des fonctions interagissant fortement avec ce dernier.
-  •     Module "time" fournissant différentes fonctions liées au temps.
-  •     Module "datetime" fournissant des classes permettant de manipuler les dates et les heures.
-  •     Module "dateutil" fournissant de puissantes extensions au module standard datetime. (from dateutil.relativedelta import relativedelta)
-        (apt-get install python-dateutil ou pip install python-dateutil)
-  •     Module "subprocess" permettant de lancer de nouveaux processus, les connecter à des tubes d'entrée/sortie/erreur, et d'obtenir leurs codes de retour.
-  •     Module "glob" permettant de renvoyer des listes contenant des chemins complets de fichiers ou répertoires contenus dans un path.
-  •     Module "ftplib" permettant le transfert de fichiers via le protocol FTP, ainsi que sa connection et son utilisation.
-  •     Module "shutil" permettant des opérations sur les fichiers et ensembles de fichiers, telles que des copies et des déplacements de fichiers.
-  •     Module "speedtest" permettant de tester sa connection internet. (apt-get install speedtest-cli)
-  •     Module "geocoder" permettant de fournir des informations de géolocalisation. (pip install geocoder)
-  •     Module "socket" permettant de manipuler les interfaces socket.
+	•   Module "pyfiglet" permettant des affichages en art Ascii (pip install pyfiglet).
+	•   Module "os" permettant d’effectuer des opérations courantes liées au système d’exploitation.
+	•   Module "sys" fournissant un accès à certaines variables utilisées et maintenues par l'interpréteur, et à des fonctions interagissant fortement avec ce dernier.
+	•   Module "time" fournissant différentes fonctions liées au temps.
+	•   Module "datetime" fournissant des classes permettant de manipuler les dates et les heures.
+	•   Module "dateutil" fournissant de puissantes extensions au module standard datetime. (from dateutil.relativedelta import relativedelta)
+	    (apt-get install python-dateutil ou pip install python-dateutil)
+	•   Module "subprocess" permettant de lancer de nouveaux processus, les connecter à des tubes d'entrée/sortie/erreur, et d'obtenir leurs codes de retour.
+	•   Module "glob" permettant de renvoyer des listes contenant des chemins complets de fichiers ou répertoires contenus dans un path.
+	•   Module "ftplib" permettant le transfert de fichiers via le protocol FTP, ainsi que sa connection et son utilisation.
+	•   Module "shutil" permettant des opérations sur les fichiers et ensembles de fichiers, telles que des copies et des déplacements de fichiers.
+	•   Module "speedtest" permettant de tester sa connection internet. (apt-get install speedtest-cli)
+	•   Module "geocoder" permettant de fournir des informations de géolocalisation. (pip install geocoder)
+	•   Module "socket" permettant de manipuler les interfaces socket.
