@@ -78,5 +78,6 @@ Configuration des machines cibles
 - Les 6 scripts python énumérés plus haut sont placés sur le serveur Wordpress dans le dossier "/home/osboxes" , et les 2 petits scripts bash "maillog.sh" et "maillog-incre1.sh"
 sont placés dans le dossier "/home/osboxes/script". Vous avez donc à modifier la configuration et les variables des scripts Python si vous avez une autre configuration ou 
 si vous utilisez d'autres chemins d'accès.
-- L'adresse gmail dans les deux scripts bash doit aussi être personnalisé afin de pouvoir recevoir les notifications mail sur votre propre adresse mail car celle présente dans les deux scripts bash maillog est mon adresse gmail personnelle de test, à modifier donc.
+- L'adresse gmail dans les deux scripts bash doit aussi être personnalisé afin de pouvoir recevoir les notifications mail sur votre propre adresse mail 
+car celle présente dans les deux scripts bash maillog est mon adresse gmail personnelle de test, à modifier donc.
 
