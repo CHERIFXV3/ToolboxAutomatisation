@@ -29,6 +29,8 @@ Technologies utilisées
 
 	o   VM VirtualBox
 	o   2 Machines Ubuntu server 20.04.3 LTS
+	o   Service vsftpd serveur
+	o   Service client smtp : "msmtp"
 	o   Git Bash
 	o   Notepad++
 	o   Gmail
