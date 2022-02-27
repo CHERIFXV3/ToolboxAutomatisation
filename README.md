@@ -15,7 +15,8 @@ Contexte du Projet P6 AIC
    permettant d'appeler plusieurs fonctionnalités automatisées de tâches plutôt complexes 
    mais surtout répétitives d'administration système.
  - Ce programme vise principalement à automatiser des sauvegardes complètes et incrémentielles d'un site Wordpress actif d'un serveur web, 
-   de transférer les sauvegardes et logs via FTP sur un serveur de sauvegarde et d'être notifié par mail de ces actions.
+   de transférer les sauvegardes et logs via FTP sur un serveur de sauvegarde, de supprimer les données sauvegardés en local de plus de X temps
+   et d'être notifié par mail de ces actions.
    Le programme permet également d'utiliser quelques autres fonctionnalités comme des tests de débit et de ping de connection, 
    la géolocalisation et l'apport d'informations comme l'ip publique et l'hostname de la machine mais surtout un port scanner 
    afin de connaitre les ports et services ouverts et utilisés à des fins de sécurité réseau par exemple. 
