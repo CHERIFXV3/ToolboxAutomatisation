@@ -1,6 +1,6 @@
 # ToolboxAutomatisation
 
-Projet 06 du parcours Administrateur Infrastructure & Cloud d'Openclassrooms
+#### Projet 06 du parcours Administrateur Infrastructure & Cloud d'Openclassrooms
 
 	o	Etudiant AIC OpenClassrooms : Beladra Chérif
 	o	Date de création : 15/02/2022
@@ -9,7 +9,7 @@ Projet 06 du parcours Administrateur Infrastructure & Cloud d'Openclassrooms
 	o	Projet sous Licence GNU General Public License v3.0
 
 
-Contexte du Projet P6 AIC
+#### Contexte du Projet P6 AIC
   
  - Ce projet est une démonstration de solution de Toolbox 
    permettant d'appeler plusieurs fonctionnalités automatisées de tâches plutôt complexes 
@@ -31,7 +31,7 @@ Contexte du Projet P6 AIC
  - Doit être exécuté en root pour pouvoir profiter de toutes les fonctionnalités des scripts. (via un sudo sous Ubuntu).
 
 
-Technologies utilisées
+#### Technologies utilisées
 
 	o   VM VirtualBox
 	o   2 Machines Ubuntu server 20.04.3 LTS
@@ -41,7 +41,7 @@ Technologies utilisées
 	o   Notepad++
 	o   Gmail
 
-Contenu de ce repository
+#### Contenu de ce repository
 
 	•   Script Python :   MenuToolbox.py
 	•   Script Python :   SaveCompleteWordpress.py
@@ -56,7 +56,7 @@ Contenu de ce repository
 	•   readme.txt
 	•   README.md
 
-Prérequis : Installation ou présence des modules nécessaires pour l'édition et l'execution des Scripts  
+#### Prérequis : Installation ou présence des modules nécessaires pour l'édition et l'execution des Scripts  
 
 	•   Module "pyfiglet" permettant des affichages en art Ascii (pip install pyfiglet).
 	•   Module "os" permettant d’effectuer des opérations courantes liées au système d’exploitation.
@@ -74,7 +74,7 @@ Prérequis : Installation ou présence des modules nécessaires pour l'édition 
 	•   Module "socket" permettant de manipuler les interfaces socket.
 
 
-Configuration des machines cibles
+#### Configuration des machines cibles
 
 - Les machines cibles sont deux Ubuntu Server 20.04.3 LTS reliés en local avec ip fixes et accès à une connection internet extérieure afin de rendre accessible le site Wordpress et permettre les notifications mails.
 - Un premier serveur est entièrement dédié au stockage des sauvegardes en tant que serveur de sauvegarde et le second serveur héberge un service web Apache Wordpress, un serveur FTP et un client msmtp.
@@ -83,12 +83,17 @@ sont placés dans le dossier "/home/osboxes/script". Vous avez donc à modifier 
 si vous utilisez d'autres chemins d'accès.
 - L'adresse gmail dans les deux scripts bash doit également être personnalisée afin de pouvoir recevoir les notifications mail sur votre propre adresse mail, car celle présente dans les deux scripts bash maillog est mon adresse gmail personnelle de test, à modifier donc.
 -Pour les configurations du serveur Vsftp et du client msmtp, je vous invite à suivre la documentation officielle d'Ubuntu pour ces deux services. Je vous partage les 2 liens:
+
 	=>	https://doc.ubuntu-fr.org/vsftpd
+	
 	=>	https://doc.ubuntu-fr.org/msmtp
+	
 Vous trouverez après cela, mes deux captures d'écran de mes deux fichiers personnels de configurations Vsftpd et msmtp utilisés pour faire fonctionner ces deux services et donc aussi les programmes Python publiés. Le fichier de configuration principal pour Vsftpd est "/etc/vsftpd.conf" et celui de msmtp est "/root/.msmtprc".
 
-Démarrage du script
+#### Démarrage du script
 
 Se placer dans le repertoire contenant le script "MenuToolbox.py" puis lancer le script avec cette commande :
+
 $ python3 MenuToolbox.py
+
 Tous les scripts Python présents sont executables via le MenuToolbox.py ou directement individuellement.
