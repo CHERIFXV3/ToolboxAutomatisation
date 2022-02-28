@@ -51,6 +51,8 @@ Contenu de ce repository
 	•   Script Python :   PortsScanner.py
 	•   maillog.sh
 	•   maillog-incre1.sh
+	•   Config_Vsftp_Sans_Comments.PNG
+	•   Config-Gmail-Msmtp.PNG
 	•   readme.txt
 	•   README.md
 
