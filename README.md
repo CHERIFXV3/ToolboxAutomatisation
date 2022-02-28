@@ -97,3 +97,5 @@ Se placer dans le repertoire contenant le script "MenuToolbox.py" puis lancer le
 $ python3 MenuToolbox.py
 
 Tous les scripts Python présents sont executables via le MenuToolbox.py ou directement individuellement.
+
+Avec crontab -e sur le serveur web Wordpress, il est possible de planifier les 2 programmes Python de sauvegardes afin de totalement automatiser le processus pour ne plus avoir besoin d'aucune intervention manuelle de lancement des scripts.
