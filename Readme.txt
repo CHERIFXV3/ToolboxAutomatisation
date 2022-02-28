@@ -82,7 +82,7 @@ Configuration des machines cibles
 sont placés dans le dossier "/home/osboxes/script". Vous avez donc à modifier la configuration et les variables des scripts Python si vous avez une autre configuration ou 
 si vous utilisez d'autres chemins d'accès.
 - L'adresse gmail dans les deux scripts bash doit également être personnalisée afin de pouvoir recevoir les notifications mail sur votre propre adresse mail, car celle présente dans les deux scripts bash maillog est mon adresse gmail personnelle de test, à modifier donc.
--Pour les configurations du serveur Vsftp et du client msmtp, je vous invite à suivre la documentation officielle d'Ubuntu pour ces deux services. Je vous partage les 2 liens:
+- Pour les configurations du serveur Vsftp et du client msmtp, je vous invite à suivre la documentation officielle d'Ubuntu pour ces deux services. Je vous partage les 2 liens:
 	=>	https://doc.ubuntu-fr.org/vsftpd
 	=>	https://doc.ubuntu-fr.org/msmtp
 Vous trouverez après cela, mes deux captures d'écran de mes deux fichiers personnels de configurations Vsftpd et msmtp utilisés pour faire fonctionner ces deux services et donc aussi les programmes Python publiés. Le fichier de configuration principal pour Vsftpd est "/etc/vsftpd.conf" et celui de msmtp est "/root/.msmtprc".
@@ -93,3 +93,4 @@ Se placer dans le repertoire contenant le script "MenuToolbox.py" puis lancer le
 $ python3 MenuToolbox.py
 Tous les scripts Python présents sont executables via le MenuToolbox.py ou directement individuellement.
 
+Avec crontab -e sur le serveur web Wordpress, il est possible de planifier les 2 programmes Python de sauvegardes afin de totalement automatiser le processus pour ne plus avoir besoin d'aucune intervention manuelle de lancement des scripts.
