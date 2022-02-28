@@ -15,7 +15,7 @@ Contexte du Projet P6 AIC
    permettant d'appeler plusieurs fonctionnalités automatisées de tâches plutôt complexes 
    mais surtout répétitives d'administration système.
  - Ce programme vise principalement à automatiser des sauvegardes complètes et incrémentielles d'un site Wordpress actif d'un serveur web, 
-   de transférer les sauvegardes et logs via FTP sur un serveur de sauvegarde, de supprimer les données sauvegardés en local de plus de X temps
+   de transférer les sauvegardes et logs via FTP sur un serveur de sauvegarde, de supprimer les données sauvegardées en local de plus de X temps
    et d'être notifié par mail de ces actions.
    Le programme permet également d'utiliser quelques autres fonctionnalités comme des tests de débit et de ping de connection, 
    la géolocalisation et l'apport d'informations comme l'ip publique et l'hostname de la machine mais surtout un port scanner 
@@ -71,13 +71,12 @@ Prérequis : Installation ou présence des modules nécessaires pour l'édition 
 	•   Module "geocoder" permettant de fournir des informations de géolocalisation. (pip install geocoder)
 	•   Module "socket" permettant de manipuler les interfaces socket.
 
+
 Configuration des machines cibles
 
-- Les machines cibles sont donc deux Ubuntu Server 20.04.3 LTS reliés en local avec ip fixes et accès à une connection internet extérieure afin de rendre accessible le site Wordpress et permettre les notifications mails.
-- Un premier serveur est entièrement dédié au stockage des sauvegardes en tant que serveur de sauvegarde et le second serveur hébergera donc un service web Apache Wordpress, un serveur FTP et un client msmtp.
+- Les machines cibles sont deux Ubuntu Server 20.04.3 LTS reliés en local avec ip fixes et accès à une connection internet extérieure afin de rendre accessible le site Wordpress et permettre les notifications mails.
+- Un premier serveur est entièrement dédié au stockage des sauvegardes en tant que serveur de sauvegarde et le second serveur héberge un service web Apache Wordpress, un serveur FTP et un client msmtp.
 - Les 6 scripts python énumérés plus haut sont placés sur le serveur Wordpress dans le dossier "/home/osboxes" , et les 2 petits scripts bash "maillog.sh" et "maillog-incre1.sh"
 sont placés dans le dossier "/home/osboxes/script". Vous avez donc à modifier la configuration et les variables des scripts Python si vous avez une autre configuration ou 
 si vous utilisez d'autres chemins d'accès.
-- L'adresse gmail dans les deux scripts bash doit aussi être personnalisé afin de pouvoir recevoir les notifications mail sur votre propre adresse mail 
-car celle présente dans les deux scripts bash maillog est mon adresse gmail personnelle de test, à modifier donc.
-
+- L'adresse gmail dans les deux scripts bash doit également être personnalisée afin de pouvoir recevoir les notifications mail sur votre propre adresse mail, car celle présente dans les deux scripts bash maillog est mon adresse gmail personnelle de test, à modifier donc. 
