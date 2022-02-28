@@ -82,7 +82,7 @@
 sont placés dans le dossier "/home/osboxes/script". Vous avez donc à modifier la configuration et les variables des scripts Python si vous avez une autre configuration ou 
 si vous utilisez d'autres chemins d'accès.
 - L'adresse gmail dans les deux scripts bash doit également être personnalisée afin de pouvoir recevoir les notifications mail sur votre propre adresse mail, car celle présente dans les deux scripts bash maillog est mon adresse gmail personnelle de test, à modifier donc.
--Pour les configurations du serveur Vsftp et du client msmtp, je vous invite à suivre la documentation officielle d'Ubuntu pour ces deux services. Je vous partage les 2 liens:
+- Pour les configurations du serveur Vsftp et du client msmtp, je vous invite à suivre la documentation officielle d'Ubuntu pour ces deux services. Je vous partage les 2 liens:
 
 	=>	https://doc.ubuntu-fr.org/vsftpd
 	
